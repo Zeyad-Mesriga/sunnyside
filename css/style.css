@@ -1,0 +1,263 @@
+.header {
+    height: 100vh;
+    background-image: url(https://moheyahmed.github.io/session_7/img/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header .navbar {
+    display: flex;
+    height: 60px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.header .navbar .left_item {
+    width: 50%;
+}
+
+.header .navbar .left_item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+
+.header .navbar .right_item {
+    width: 50%;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.header .navbar .right_item ul {
+    float: right;
+}
+
+.header .navbar .right_item ul li {
+    list-style: unset;
+    display: inline;
+    padding: 5px 15px;
+    padding-bottom: 8px;
+    margin: 5px 5px;
+    font-weight: 500;
+    font-family: cursive;
+    letter-spacing: 2px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+.header .navbar .right_item ul li a {
+    color: #fff;
+    text-decoration: unset;
+}
+
+.header .navbar .right_item ul li:hover, .header .navbar .right_item ul .active {
+    background-color: rgba(255, 255, 255, .2);
+    border: 1px solid rgba(255, 255, 255, 1);
+    overflow: hidden !important;
+    margin-left: 5px;
+}
+
+.header .desc {
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.header .desc p {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.header .desc img:hover {
+    cursor: pointer;
+}
+.services {
+    display: flex;
+    font-family: cursive;
+}
+
+.services .right_item, .services .left_item {
+    height: 460px;
+    width: 50%;
+}
+
+.services .left_item h3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #222;
+    text-transform: capitalize;
+    padding: 80px 30px 0px 120px;
+}
+
+.services .left_item p {
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    padding: 0px 30px 12px 120px;
+    line-height: 30px;
+}
+
+.services .left_item a {
+    text-decoration: unset;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 120px;
+    transition: border-bottom .5s ease-in-out;
+}
+
+services .right_item, .services .left_item {
+    height: 460px;
+    width: 50%;
+}
+
+.services .right_item img {
+    width: 100%;
+    height: 100%;
+}
+
+.image_container {
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.image_container .first_img {
+    background-image: url(	https://moheyahmed.github.io/session_7/img/image-graphic-design.jpg);
+    background-position: center;
+    background-size: cover;
+    size: 100%;
+    width: 50%;
+}
+
+.image_container .second_img {
+    background-image: url(	https://moheyahmed.github.io/session_7/img/image-photography.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+.image_container .first_img h4, .image_container .second_img h4 {
+    color: #664646;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 300px 200px 3px;
+}
+
+.image_container .first_img p, .image_container .second_img p {
+    width: 700px;
+    font-size: 1rem;
+    color: rgb(121, 107, 107);
+    padding: 3px 160px 40px;
+    margin-left: 120px;
+}
+
+.final_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 90PX 100px;
+}
+
+.final_container .final_h h3 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #808080;
+}
+
+.final_container .frame {
+    display: flex;
+    margin: 20px 40px 0px;
+    justify-content: space-around;
+}
+
+.final_container .frame img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.final_container .frame p {
+    width: 430px;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: cursive;
+    color: #808080;
+    line-height: 30px;
+}
+
+.final_container .frame h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    line-height: 40px;
+    font-family: cursive;
+}
+
+.final_container .frame h4 span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #808080;
+}
+
+.full {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+}
+.full img {
+    width: 25%;
+}
+
+.footer {
+    height: 250px;
+    background-color: rgb(166, 233, 195);
+    text-align: center;
+    padding-top: 45px;
+}
+.footer h3 {
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bolder;
+    color: #808080;
+}
+
+.footer ul li {
+    list-style: unset;
+    display: inline;
+    font-size: 19px;
+    margin-right: 60px;
+    color: #808080;
+    font-weight: bold;
+}
+
+.footer .icon {
+    margin-left: 45px;
+}
+
+.footer i {
+    margin-top: 25px;
+    margin-right: 42px;
+    font-size: 30px;
+    color: #808080;
+}
